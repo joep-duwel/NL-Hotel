@@ -1,18 +1,148 @@
-body{
-  background-color: rgb(218, 218, 218);
-
-
+/* Algemene opmaak */
+body {
+  background-color: white;
+  font-family: Arial, sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
 }
-.title{
-  text-align: center;
-}
 
-.text-1{
-  display: flex;
+/* Header */
+header {
+  color: white;
 }
-.img-1 {
-  background-image: url(img/hotel-1.jpg);
-  width: 150%; /* Pas dit aan naar de gewenste breedte */
-height: 500px;
+.head{
+  background-image: url(img/oustide.jpg);
   background-size: cover;
+  background-position: center;
+  padding: 40px 0;
+}
+
+/* Titel in het midden */
+.title {
+  text-align: center;
+  font-size: 2.5em;
+  color: #fff;
+  margin: 0;
+}
+
+/* Nav-bar styling */
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding: 10px;
+  background-color: #333;
+  margin: 0;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Main content container */
+.contener {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Special offers card styling */
+.kamer-section-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: #f8f9fa;
+  padding: 40px 20px;
+  margin: 20px 0;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.kamer-section-2 a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.home-image-2 {
+  width: 100%;
+  max-width: 800px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.home-text h2 {
+  font-size: 2em;
+  color: #d32f2f;
+  margin-bottom: 15px;
+}
+
+.home-text p {
+  font-size: 1.1em;
+  color: #555;
+  max-width: 800px;
+  margin: 0 auto 20px auto;
+}
+
+.discounted-price {
+  font-weight: bold;
+  font-size: 1.4em;
+  color: #388e3c;
+}
+
+.home-text strong {
+  font-size: 1.2em;
+  color: #333;
+}
+
+/* Home secties */
+.home-section,
+.home-section-1 {
+  text-align: center;
+  padding: 40px 20px;
+  margin-top: 20px;
+}
+
+.home-section {
+  background-color: #e0e0e0;
+}
+
+.home-section h2, .home-section-1 h2 {
+  font-size: 2em;
+  color: #333;
+}
+
+.home-section p, .home-section-1 p {
+  font-size: 1em;
+  max-width: 800px;
+  margin: 10px auto;
+  color: #555;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 40px;
+}
+
+footer p {
+  margin: 0;
+  font-size: 0.9em;
 }
